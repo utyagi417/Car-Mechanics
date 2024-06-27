@@ -1,0 +1,58 @@
+
+.office-address{
+    margin-bottom: 90px;
+}
+
+.office-address .widget {
+    padding-left: 60px;
+    padding-right: 15px;
+    margin-right: -1px;
+    height: 100%;
+}
+
+
+.office-address .widget .widget-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+    text-transform: capitalize;
+    padding: 20px 0px;
+    color: var(--text-color);
+}
+
+.widget .widget-title::after {
+    content: '';
+    position: absolute;
+    left: -50%;
+    bottom: 0px;
+    width: 200%;
+    height: 1px;
+    background-color: var(--color-dark-black-three);
+}
+
+.widget .item--subtitle {
+    color: var(--color-muted);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.widget .item--title {
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    word-break: break-word;
+    font-size: var(--fs-20);
+    line-height: var(--fs-30);
+}
+
+
+.map {
+    height: 500px;
+    width: 100%;
+}

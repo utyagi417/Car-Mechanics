@@ -1,0 +1,33 @@
+
+
+#contact-form{
+    background-image: url('/Images/background/bg-4.png');
+    background-color: rgba(85, 85, 85, 0.417);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+}
+
+.input-field{
+    width: 100%;
+    height: 5rem;
+    outline: none;
+    padding: 4px 20px;
+    color: var(--text-color);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-light);
+    background-color: rgb(61, 61, 61,0.30);
+    border: 1px solid rgba(105, 105, 105, 0.226);
+}
+
+.textarea-field{
+    resize: none;
+    outline: none;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-light);
+    background-color: rgb(61, 61, 61,0.30);
+    border: 1px solid rgba(105, 105, 105, 0.226);
+}

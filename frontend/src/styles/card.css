@@ -1,0 +1,45 @@
+/* MARK: Service Card -2 */
+
+
+.service-card-2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    border: 1px solid var(--color-dark-black);
+    overflow: hidden;
+}
+.service-card-2 .divider-img{
+    background-image: url('/Images/divider-sm.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 25px;
+}
+
+.service-card-2 .service-card-body{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding:30px 33px;
+}
+
+.service-card-2 .service-card-body .item--description{
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+
+.service-card-2:hover .service-card-body{
+    background: linear-gradient(to top, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.1));
+}
+
+.service-card-2 .service-card-body .item--description:hover{
+    margin-left: 35px;
+}
+
+
+

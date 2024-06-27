@@ -1,0 +1,46 @@
+
+.mechanics-batch{
+    display: flex;
+    position: absolute;
+    top: -200px;
+    right: -75px;
+    background-color: var(--color-red);
+    padding: 10px 20px;
+    transform: rotate(90deg) skewX(20deg);
+    transition: var(--transition-base);
+}
+
+.mechanics-batch  svg{
+    display: inline-block;
+    font-size: var(--fs-24);
+    margin: -5px 10px;
+    transform: rotate(-90deg) skewY(20deg);
+}
+
+.mechanics-info{
+    position: absolute;
+    bottom: 0;
+    right: -250px;
+    background: rgba(var(--color-black-rgb), 0.40);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    transition: var(--transition-base);
+}
+
+.mechanics-info .item--title-1{
+    font-size: var(--fs-24);
+    line-height: var(--fs-28);
+    margin: 0;
+    color: var(--color-white);
+}
+
+.mechanics-info .item--designation{
+    font-size: 14px;
+}
+
+.mechanics:hover .mechanics-info{
+    right: 0;
+}
+.mechanics:hover .mechanics-batch{
+    top: 65px;
+}

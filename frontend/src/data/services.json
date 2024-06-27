@@ -1,0 +1,114 @@
+[
+  { 
+    "id": "S01",
+    "name": "Periodic Services",
+    "imgUrl": "/Images/Services/Periodic_Services.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S02",
+    "name": "AC Service & Repair",
+    "imgUrl":"/Images/Services/AC_Services.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S03",
+    "name": "Batteries",
+    "imgUrl": "/Images/Services/Car_Battery.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S04",
+    "name": "Tyre & Wheel Care",
+    "imgUrl":"/Images/Services/Tyre_Services.jpg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S05",
+    "name": "Denting & Painting",
+    "imgUrl":"/Images/Services/Car_Painting.jpg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S06",
+    "name": "Detailing Services",
+    "imgUrl":"/Images/Services/Car_Detailing.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S07",
+    "name": "Car Spa & Clean",
+    "imgUrl":"/Images/Services/Car_Wash.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S08",
+    "name": "Car Inspection",
+    "imgUrl":"/Images/Services/Car_Inspection.jpg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S09",
+    "name": "Windshield & Light ",
+    "imgUrl":"/Images/Services/Car_Windshield.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S10",
+    "name": "Suspension & Fitments",
+    "imgUrl":"/Images/Services/Car_Suspension.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S11",
+    "name": "Clutch & Body Parts",
+    "imgUrl":"/Images/Services/Car_Clutch.jpg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S12",
+    "name": "Insurance Claim",
+    "imgUrl":"/Images/Services/Car_Insurance_2.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  { 
+    "id": "S13",
+    "name": "SOS Services",
+    "imgUrl":"/Images/Services/Car_SOS.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  },
+  {
+    "id":"S14",
+    "name":"Brake Maintenance",
+    "imgUrl":"/Images/Services/Car_Brake.jpeg",
+    "available_for":[
+      "B1-M001","B1-M002","B2-M001","B2-M002","B3-M001","B3-M002"
+    ]
+  }
+]

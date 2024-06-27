@@ -1,0 +1,1723 @@
+[
+    {
+        "id": "S01",
+        "Category": "Scheduled Packages",
+        "service_included":[
+            {
+                "sid": "S1-01",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Basic%20Service%20Package%20sq.jpg",
+                "name":"Basic Services",
+                "major_feature":["1000 km or 1 month Warranty","Every 5000 km or 3 months (recommended)"],
+                "features":["Wiper fluid replacement","Battery Water top up","Car Wash","Interior Vacuuming (Carpet & Seats)","Engine Oil Replacement","Oil Filter Replacement","Air Filter Cleaning","Coolant Top Up (200 ml)","Heater/Spark Plugs Checking"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 4,
+                "Badge": "New",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 1, "available": true },
+                    "B1-M002": { "price": 1, "available": true },
+                    "B2-M001": { "price": 1, "available": true },
+                    "B2-M002": { "price": 1, "available": true },
+                    "B3-M001": { "price": 1, "available": true },
+                    "B3-M002": { "price": 1, "available": true }
+                }
+            },
+            {
+                "sid": "S1-01",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Standard%20Service%20Package%20sq.jpg",
+                "name":"Standard Services",
+                "major_feature":["1000 km or 1 month Warranty","Every 10,000 km or 6 months (recommended)"],
+                "features":["Car Scanning","Rear Brake & Shoe Service","Front Brake Pads Service","Fuel Filter Checking","AC Filter Cleaning","Wiper fluid replacement","Battery Water top up","Car Wash","Interior Vacuuming (Carpet & Seats)","Engine Oil Replacement","Oil Filter Replacement","Air Filter Cleaning","Coolant Top Up (200 ml)","Heater/Spark Plugs Checking"],
+                "price": 12000,
+                "MRP": 21999,
+                "time": 6,
+                "Badge": "Recommended",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 1, "available": true },
+                    "B1-M002": { "price": 1, "available": false },
+                    "B2-M001": { "price": 1, "available": true },
+                    "B2-M002": { "price": 1, "available": true },
+                    "B3-M001": { "price": 1, "available": true },
+                    "B3-M002": { "price": 1, "available": true }
+                }
+            },
+            {
+                "sid": "S1-01",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Comprehensive%20Service%20Package%202%20sq.jpg",
+                "name":"Comprehensive Services",
+                "major_feature":["1000 km or 1 month Warranty","Every 20,000 km or 12 months (recommended)"],
+                "features":["AC Filter Replacement","Wheel Balancing","Wheel Alignment","Tyre Rotation","Throttle Body Cleaning","Gear Oil Top Up","Brake Fuel Top Up","Engine Flushing","Car Scanning","Rear Brake & Shoe Service","Front Brake Pads Service","Fuel Filter Checking","Wiper fluid replacement","Battery Water top up","Car Wash","Interior Vacuuming (Carpet & Seats)","Engine Oil Replacement","Oil Filter Replacement","Air Filter Cleaning","Coolant Top Up (200 ml)","Heater/Spark Plugs Checking"],
+                "price": 12000,
+                "MRP": 27999,
+                "time": 8,
+                "Badge": "20% Off",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 2, "available": true },
+                    "B1-M002": { "price": 1, "available": true },
+                    "B2-M001": { "price": 1, "available": true },
+                    "B2-M002": { "price": 1, "available": true },
+                    "B3-M001": { "price": 1, "available": true },
+                    "B3-M002": { "price": 1, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S02",
+        "Category": "Service Packages",
+        "service_included":[
+            {
+                "sid": "S2-01",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/newB.jpg",
+                "name":"Regular AC Services",
+                "major_feature":["500 km or 1 month Warranty","Every 5000 km or 3 months (recommended)"],
+                "features":["AC Vent Cleaning","AC Inspection","AC Gas(400 gms)","Condenser Cleaning","AC Filter Cleaning"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 4,
+                "Badge": "Free AC Unit Inspection",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S2-02",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Standard%20Service%20Package%20sq.jpg",
+                "name":"High Performance AC Services",
+                "major_feature":["1000 km or 1 month Warranty","Every 10,000 km or 12 months (recommended)"],
+                "features":["AC Vent Cleaning","AC Leak Test","Dashboard Removing Refitting","Dashboard Cleaning", "AC Gas(600 gms)","Condenser Cleaning","AC Filter Cleaning","Compressor Oil(200ml)","Cooling Coil Cleaning"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Recommended",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S02",
+        "Category": "AC Fitment",
+        "service_included":[
+            {
+                "sid": "S2-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/cooling%20coil/Thumbnail.jpg",
+                "name":"Cooling Coil Replacement",
+                "major_feature":["3 month Warranty","Recommended: In Case of No/Less Cooling"],
+                "features":["Cooling Coil Replacement(OES)","Spare Parts Cost Only","AC Pipe, Valve,Sensors(Cost Additional)","AC Gas, Compressor Oil(Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Best Seller",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S2-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/Condensor%20Replacement.jpg",
+                "name":"Condenser Replacement",
+                "major_feature":["3 month Warranty","Recommended: In Case of Condenser Leakage or Less Cooling"],
+                "features":["Condenser Replacement(OES)","Spare Parts Cost Only","AC Pipe, Valve,Sensors(Cost Additional)","AC Gas, Compressor Oil(Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Free AC Gas Top up",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S2-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Compressor%20Replacement%20Photos/Thumbnail.jpg",
+                "name":"Compressor Replacement",
+                "major_feature":["3 month Warranty","Recommended: In Case of Compressor Leakage or Less Cooling"],
+                "features":["Compressor Replacement(OES)","Spare Parts Cost Only","AC Pipe, Valve,Sensors(Cost Additional)","AC Gas, Compressor Oil(Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Free Inspection",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S2-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Heating%20Coil%20Replacement/Thumbanil.jpg",
+                "name":"Heating Coil Replacement",
+                "major_feature":["3 month Warranty","Recommended: In Case of Heater not working"],
+                "features":["Heating Coil Replacement(OES)","Hoses Additional(if Required)","Spare Parts Cost Only","Coolant & Radiant Flush (Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Spare Part Cost Only",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S2-07",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/V-Belt%20Replacement/Thumbnail.jpg",
+                "name":"V-Belt Replacement",
+                "major_feature":["1 month Warranty","Recommended: In Case of Whining Noise from Engine "],
+                "features":["V-Belt Replacement(OES)","Opening & Fitting of V-Belt","Pulley & Bearings (Cost Additional)","Scanning (Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": "Labour Included",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S03",
+        "Category": "Battery",
+        "service_included":[
+            {
+                "sid": "S3-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Battery/Amaron/amaron%20go%20new-min.png",
+                "name":"Amaron (55 month warranty)",
+                "major_feature":["80 AMP Hour","55 Month warranty","Free Cost of Installation"],
+                "features":["Free Pickup and Drop","Free Installation","Old Battery Price Included","Available at Doorstep"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S3-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Battery/Exide/exide%20red%20new-min.png",
+                "name":"Exide (55 month warranty)",
+                "major_feature":["80 AMP Hour","55 Month warranty","Free Cost of Installation"],
+                "features":["Free Pickup and Drop","Free Installation","Old Battery Price Included","Available at Doorstep"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S03",
+        "Category": "Alternator",
+        "service_included":[
+            {
+                "sid": "S3-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Alternator%20Replacement/Thumbnail.jpg",
+                "name":"Alternator Replacement ",
+                "major_feature":["1 Month Warranty","Recommended: In Case of Frequently Discharge of Battery"],
+                "features":["Alternator Replacement","Opening & Fitting of Alternator","Alternator Belt Additional","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 24225,
+                "time": 6,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S3-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Alternator%20Repair/thumbnail.jpg",
+                "name":"Alternator Repair",
+                "major_feature":["1 Month Warranty","Recommended: In Case of Frequently Discharge of Battery"],
+                "features":["Alternator Repair","Opening & Fitting of Alternator","Alternator Belt Additional","Free Pickup and Drop"],
+                "price": 70893,
+                "MRP": 6591,
+                "time": 6,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S04",
+        "Category": "Tyres",
+        "service_included":[
+            {
+                "sid": "S4-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"Apollo Apterra HT 2",
+                "major_feature":["Size -265/60 R18 114H XL","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"MRF Wandered SL",
+                "major_feature":["Size -265/60 R18 110T","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"Bridgestone Dueler HL 683",
+                "major_feature":["Size -245/70 R16 107H ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"CEAT CZAR AT",
+                "major_feature":["Size -245/70 R16 111S ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"Yokohama Geolandar AT G015",
+                "major_feature":["Size -265/70 R18 110H ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-07",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"GoodYear Wrangler AT SA",
+                "major_feature":["Size -245/70 R16 111T ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-08",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"Michelin LTX Force",
+                "major_feature":["Size -245/70 R16 ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-09",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/tyres_new/Apollo/Apollo%20Apterra%20HT%202.jpg",
+                "name":"Falken Widlpeak HT01",
+                "major_feature":["Size -245/70 R16 105S ","5 Month Warranty","Tubeless","fitting Cost Included"],
+                "features":["Tyre Replacement Service at Center","Tyre Inspection for Tread","Alignment & Balancing (Charges Extra)","Free Pickup and Drop"],
+                "price": 20551,
+                "MRP": 15550,
+                "time": 1,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S04",
+        "Category": "Wheel Care Services",
+        "service_included":[
+            {
+                "sid": "S4-10",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Wheel%20alignment%201%20sq.jpg",
+                "name":"Complete Wheel Care",
+                "major_feature":["Every 5,000 km or 6 months (recommended)"],
+                "features":["Automated Wheel Balancing","Weight Corrosion","Alloy Weights Additional","Laser Assisted Wheel Alignment","Steering Adjustment & Correction","Camber & Castor Adjustment","All four tyre Wheel Rotation"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S4-11",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/Mud%20Flaps.jpg",
+                "name":"Mud Flaps",
+                "major_feature":["1 Month Warranty on Fitting","Excellent Durability"],
+                "features":["Mud Flaps set of 4","Prevents Soil Accumulation","Fitting of Mud Flaps","Labour Cost Included"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S05",
+        "Category": "Front Side",
+        "service_included":[
+            {
+                "sid": "S5-01",
+                "time": "3 Days",
+                "Badge": null,
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Front%20bumper%20paint%20sq.jpg",
+                "name": "Front Bumper Paint",
+                "MRP": 20000,
+                "price": 15499,
+                "major_feature": ["1 Month Warranty On Fitting", "On Crack in WindShield"],
+                "features":["WindShield ISI Approved","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Free PickUp & Drop","Consumables-Adhesive/Sealant/Bond"],
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S5-02",
+                "time": "3 Days",
+                "Badge": null,
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Bonnet%20paint%20sq.jpg",
+                "name": "Bonnet Paint",
+                "MRP": 20000,
+                "price": 12999,
+                "major_feature": ["1 Month Warranty On Fitting", "On Crack in WindShield"],
+                "features":["WindShield ISI Approved","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Free PickUp & Drop","Consumables-Adhesive/Sealant/Bond"],
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S05",
+        "Category": "Rear Side",
+        "service_included":[
+            {
+                "sid": "S5-03",
+                "time": "3 Days",
+                "Badge": null,
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/RHS%20rear%20door%20paint%20sq.jpg",
+                "name": "Rear Bumper Paint",
+                "MRP": 20000,
+                "price": 15499,
+                "major_feature": ["1 Month Warranty On Fitting", "On Crack in WindShield"],
+                "features":["WindShield ISI Approved","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Free PickUp & Drop","Consumables-Adhesive/Sealant/Bond"],
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S5-04",
+                "time": "3 Days",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Boot%20paint%20sq.jpg",
+                "name": "Boot Paint",
+                "major_feature": ["1 Month Warranty On Fitting", "On Crack in WindShield"],
+                "features":["WindShield ISI Approved","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Free PickUp & Drop","Consumables-Adhesive/Sealant/Bond"],
+                "MRP": 20000,
+                "price": 12999,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S05",
+        "Category": "Whole Body",
+        "service_included":[
+            {
+                "sid": "S5-05",
+                "time": "8 Days",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Full%20Body%20Dent%20Paint%20sq.jpg",
+                "name": "Full Body Dent Paint",
+                "major_feature": ["2 Years Warranty on Paint"],
+                "features":["Removal of minor dent & Scratches","Grade A primer applied","High Quality DuPont Paint","Clear Coat Protective layer Paint","Panel Rubbing & Polishing"],
+                "MRP": 20000,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+
+            },
+            {
+                "sid": "S5-06",
+                "time": "3 Days",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/services_icon/wheel-Alloy-Painting-min.png",
+                "name": "Alloy Paint",
+                "major_feature": ["1 Year Warranty on Paint","Every 1 Year (Recommended)"],
+                "features":["Grade A primer","High Temperature Paint","4 Layer Paint","Alloy Preservation"],
+                "MRP": 20000,
+                "price": 12999,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S06",
+        "Category": "Polishing & Coating",
+        "service_included":[
+            {
+                "sid": "S6-01",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/3M%20car%20Rubbing%20_%20Polishing.jpg",
+                "name": "3M™ Car Rubbing And Polishing",
+                "major_feature": ["Every 6 Months (Recommended)"],
+                "features": ["Pressure Car Wash","Tyre Dressing","Alloy Polishing","Machine Rubbing","Rubbing with 3M Compound","3M Wax Polishing"],
+                "MRP": 19743,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S6-02",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/Banner/3M_ceramic_Thumbnail.jpg",
+                "name": "Ceramic Coating",
+                "major_feature": ["1 Year Warranty","Every 3 Years(Recommended)"],
+                "features":["Complete Paint Correction","2 Layers of Coating","Safely Removal of Minor Scratches","Deep All Round Spa","Exterior Car Wash","9H Nano Coating","Ultra Shine Polish"],
+                "MRP": 21465,
+                "price": 18499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S6-03",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/Banner/Meguiar_Ceramic_Thumbnail.jpg",
+                "name": "Meguiar's Ceramic Coating",
+                "major_feature": ["1 Year Warranty","Every 3 Years(Recommended)"],
+                "features":["Complete Paint Correction","2 Layers of Coating","Remove Minor Scratches","Deep All Round Spa","Exterior Car Wash","Meguiar's 9H Nano Coating","Ultra Shine Polish"],
+                "Badge": null,
+                "MRP": 24976,
+                "price": 20499,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S6-04",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/Banner/Meguiar_Teflon_Thumbnail.jpg",
+                "name": "Meguiar's Teflon Coating",
+                "major_feature": ["3 Months Warranty","Every 1 Years(Recommended)"],
+                "features":["Pre-Coating Rubbing & Polishing","Ultra Shine Polish","Remove Minor Scratches","Exterior Car Wash","Full Body Meguiar's Teflon Coating","Meguiar's Exterior Anti-Rust Treatment"],
+                "MRP": 24976,
+                "price": 20499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S6-05",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/Banner/3M_Teflon_Thumbnail.jpg",
+                "name": "3M Teflon Coating",
+                "major_feature": ["3 Months Warranty","Every 1 Years(Recommended)"],
+                "features":["Pre-Coating Rubbing & Polishing","Ultra Shine Polish","Remove Minor Scratches","Exterior Car Wash","Full Body 3M Teflon Coating","3M Exterior Anti-Rust Treatment"],
+                "MRP": 24976,
+                "price": 20499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S6-06",
+                "time": "4 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/PPF/PPF%20Sq.jpg",
+                "name": "3M Teflon Coating",
+                "major_feature": ["3 Years Warranty","Every 3 Years(Recommended)"],
+                "features":["Avery PPF-Paint Protection Film"],
+                "MRP": 24976,
+                "price": 20499,
+                "Badge": "Free Interior SPA",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S07",
+        "Category": "Special Packages",
+        "service_included":[
+            {
+                "sid": "S7-01",
+                "time": "5 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Winter%20Services/Thumbnail.jpg",
+                "name": "Winter Care Package",
+                "major_feature": ["1 Month Warranty", "Free Pickup & Drop"],
+                "features":["Coolant Leakage Inspection","Radiator Flushing","Coolant Replacement","AC Gas Check","AC Blower Checking","Condenser Cleaning","Air Filter Cleaning","Wiper fluid Top-up","Battery Water top up","Battery Terminal Coating","Spark Plug Cleaning(If Applicable)","Wheel Alignment","Electrical/Lights Check","Engine Scanning"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S7-02",
+                "time": "6 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/7%20services%20Images/festive/thumbnail.jpg",
+                "name": "360 Deep Cleaning",
+                "major_feature": ["1 Month Warranty", "Brand New Festive Look"],
+                "features":["Exterior Rubbing & Polishing","Interior Wet Shampooing & Detailing","Interior Vacuuming Cleaning","Pressure Washing","Tyre Dressing & Alloy Polishing","Free PickUp & Drop"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S07",
+        "Category": "SPA",
+        "service_included":[
+            {
+                "sid": "S7-03",
+                "time": "5 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Dry%20Cleaning%20sq.jpg",
+                "name": "Car Interior SPA",
+                "major_feature": ["Every 3 Months (Recommended)"],
+                "features":["Pressure Car Wash","Anti Viral & Bacterial Treatment","Interior Vacuuming Cleaning","Dashboard Polishing","Interior Wet Shampooing & Detailing"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S7-04",
+                "time": "6 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/comprehensive%20cleaning%20sq.jpg",
+                "name": "Deep All Round SPA",
+                "major_feature": ["Every 6 Months (Recommended)"],
+                "features":["Interior Vacuuming Cleaning","Dashboard Polishing","Interior Wet Shampooing & Detailing","Pressure Car Wash","Rubbing with Compound","Wax Polishing","Machine Rubbing","Tyre Dressing","Alloy Polishing"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S7-05",
+                "time": "6 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gm-retail-app/retailservices/Foam_Wash_Thumbnail.jpg",
+                "name": "Premium Top Wash",
+                "major_feature": ["Pickup Charges Additional in Invoice","Applicable on Walk-in Only"],
+                "features":["Exterior Top Wash","Rinsing","Hand Drying","Tyre External Wash"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S7-06",
+                "time": "6 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/services_icon/carwashwax_thumbnail.jpg",
+                "name": "Car Wash & Wax",
+                "major_feature": ["Maintain Car Shine","Every 2 Months (Recommended)"],
+                "features":["Car Wash","Interior Vacuuming","Dashboard & Tyre Polish","Body Wax"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S7-07",
+                "time": "6 Hrs",
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Car%20Rubbing%20and%20Polishing/thumbnail.jpg",
+                "name": "Car Rubbing & Polishing",
+                "major_feature": ["Every 6 Months (Recommended)"],
+                "features":["Machine Rubbing with Compound","Wax Polishing","Pressure Car Wash","Tyre Dressing","Alloy Polishing"],
+                "MRP": 21965,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S08",
+        "Category": "Inspection",
+        "service_included":[
+            {
+                "sid": "S8-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Car%20service%20Photos/Second%20hand%20car%20inspection/thumbnail.jpg",
+                "name":"Second Hand Car Inspection",
+                "major_feature":["Available at Doorstep","Transparent Inspection Report"],
+                "features":["50 Points Check List","Expert Mechanic Advise","Physical Car Diagnosis","Upfront Estimate","Get Car Valuation"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S8-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Car%20Inspection%20/thumbnail.jpg",
+                "name":"Road Trip Inspection",
+                "major_feature":["Recommended for Long Road Trips"],
+                "features":["Wheel Alignment & Balancing","Full Car Scanning","Detailed Health Card","Fluid Leakage Inspection","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S8-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Car%20service%20Photos/Engine%20Scanning/Thumbnail.jpg",
+                "name":"Engine Scanning",
+                "major_feature":["Scanner Report Provided","OEM Scanning"],
+                "features":["Electrical Scanning","Error Code Deletion","Sensor Reset","Inspection of Exhaust Smoke"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S8-04",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/service-new-images/Car%20Insurance_Square.jpg",
+                "name":"Insurance Claim Inspection",
+                "major_feature":["Real Time Claim Tracking","Free Pickup & Drop"],
+                "features":["Claim Intimation","Surveyor Estimate Approval","2 Years Warranty on Paint Job","Policy Inspection","Body Damage Inspection","Insurance Claim Advice"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S8-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Car%20service%20Photos/Car%20fluid%20Check/Thumbnail.jpg",
+                "name":"Car Fluids Check",
+                "major_feature":["On Leakage or Check Light(Recommended)","Free Pickup & Drop"],
+                "features":["Brake Fluid Check","Coolant Check","Engine Oil Check","Power Steering Oil Check","Battery Water Inspection"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S8-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/Complete%20Suspension%20Inspection.jpg",
+                "name":"Complete Suspension Inspection",
+                "major_feature":["On Suspension Noise (Recommended)"],
+                "features":["Front Shocked Check","Rear Shocker Check","Shocker Mount Check","Link Rod Inspection","Jumping Rod Bush Check"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S09",
+        "Category": "WindShield & Glasses",
+        "service_included":[
+            {
+                "sid": "S9-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Rear%20Windshield%20replacement/Rear%20Windshield%20Replacement%20Sq.jpg",
+                "name":"Rear WindShield Replacement",
+                "major_feature":["1 Month Warranty on Fitting","On Crack in WindShield(Recommended)"],
+                "features":["Windshield(ISI Approved)","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Consumables-Adhesive/Sealant/Bond","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S9-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/Front%20Windshield%20Replacement.jpg",
+                "name":"Front WindShield Replacement",
+                "major_feature":["1 Month Warranty on Fitting","On Crack in WindShield(Recommended)"],
+                "features":["Windshield(ISI Approved)","Open & Fitting of New WindShield","Defogger Charge Additional (if Applicable)","Consumables-Adhesive/Sealant/Bond","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S9-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Door%20Glass%20Replacement/Door%20Glass%20Replacement%20Sq.jpg",
+                "name":"Door Glass Replacement",
+                "major_feature":["1 Month Warranty on Fitting","On Crack in Door Glass (Recommended)"],
+                "features":["Door Glass(ISI Approved)","Open & Fitting of New Door Glass","UV Glass Charge Additional (if Applicable)","Consumables-Adhesive/Bond","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S09",
+        "Category": "Lights",
+        "service_included":[
+            {
+                "sid": "S9-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/BrakePads/Front%20Brake%20Pads%20Sq%20(1).jpg",
+                "name":"Front Headlight",
+                "major_feature":["1 Month Warranty on Fitting","For Broken/Cracked Lights(Recommended)"],
+                "features":["Headlight OES(price for single Unit)","Open & Fitting of Bumper/Headlight","Projector/LEDs/DRLs Additional","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S9-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Lights/CN1Z13404K.jpg",
+                "name":"Rear Taillight",
+                "major_feature":["1 Month Warranty on Fitting","Taillight price differ from car models","For Broken/Cracked Lights(Recommended)"],
+                "features":["TailLight OES(price for single Unit)","Open & Fitting of Taillight","Bulbs/LEDs Additional","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S9-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Fog%20Light/maruti_fog_lamp.jpg",
+                "name":"Fog Light",
+                "major_feature":["1 Month Warranty on Fitting"],
+                "features":["Opening & Fitting of Bumper+ Fog Lamp","Fog Light Assembly Replacement (Single Unit)","Switch/Harness Wiring Check","Projector/LEDs/DRLs Additional","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S10",
+        "Category": "Steering",
+        "service_included":[
+            {
+                "sid": "S10-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/EPS%20Module%20Repair/Thumbnail.jpg",
+                "name":"ESP Module Repair",
+                "major_feature":["1 month Warranty","Recommended: In Case of Hard Steering"],
+                "features":["Steering Rack,Steering Motor additional","Torque Sensor additional","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S10-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Steering%20Rack%20Repair/thumbnail.jpg",
+                "name":"Steering Rack Repair",
+                "major_feature":["1 month Warranty","Recommended: In Case of Hard Steering"],
+                "features":["Steering Blush Kit,Lathe Work, Wheel Alignment Included","Steering Rod Resurfacing","Calibration & Pinion Cost Additional","Free PickUp & Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S10",
+        "Category": "Suspension",
+        "service_included":[
+            {
+                "sid": "S10-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/front_shokerthumbnail%20(1).jpg",
+                "name":"Front Shock Absorber Replacement",
+                "major_feature":["1 month Warranty"],
+                "features":["Shocker Strut/Damper OES Replacement(Single Unit)","Open & Fitting of Front Shock Absorber","Shocker Mount, Shocker Coil Spring Additional Charges","Airmatic Shock Absorber Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S10-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/RearshockThumbnail%20(1).jpg",
+                "name":"Rear Shock Absorber Replacement",
+                "major_feature":["1 month Warranty"],
+                "features":["Shocker Strut/Damper OES Replacement(Single Unit)","Open & Fitting of Rear Shock Absorber","Shocker Mount, Shocker Coil Spring Additional Charges","Airmatic Shock Absorber Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S10-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Suspension%20Lower%20Arm%20Replacement/Thumbnail.jpg",
+                "name":"Suspension Lower Arm Replacement",
+                "major_feature":["1 month Warranty","Recommended: In Case of Vibration in Steering Wheel"],
+                "features":["Suspension Lower Arm OES Replacement(Single Unit)","Complete Suspension Inspection","Spare Parts Cost Only","Wheel Alignment Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": "Spare Part Cost Only",
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S11",
+        "Category": "Clutch",
+        "service_included":[
+            {
+                "sid": "S11-01",
+                "time": 6,
+                "img": "https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Clutch%20Service/Thumbnail.jpg",
+                "name": "Clutch Set Replacement",
+                "major_feature":["1 month Warranty",
+                "Automatic Transmission Clutch Rate Vary","Recommended: In Case of Hard Clutch & Pickup Issue"],
+                "features":["Clutch Set OES (Clutch + Pressure Plate Replacement","Open & Fitting of Clutch Set","Clutch Cable/ Wire, Release Bearing/ Clutch Cylinder, FlyWheel, Slave Cylinder in Add Ons","Clutch Oil, Gear Oil Cost Additional"],
+                "MRP": 23900,
+                "price": 15499,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S11-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/New%20Thumbnail/flywheelThumbnail%20(1).jpg",
+                "name":"FlyWheel Replacement",
+                "major_feature":["1 month Warranty",
+                "Automatic Transmission Clutch Rate Vary","Recommended: In Case of Hard Clutch & Pickup Issue"],
+                "features":["FlyWheel OES Replacement","Spare Parts Cost Only","Clutch Cable/ Wire, Release Bearing/ Clutch Cylinder, FlyWheel, Slave Cylinder in Add Ons","Clutch Oil, Gear Oil Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S11-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Clutch%20Bearing%20OES%20Replacement/Thumbnail.jpg",
+                "name":"Clutch Bearing Replacement",
+                "major_feature":["1 month Warranty",
+                "Automatic Transmission Clutch Rate Vary","Recommended: In Case of Hard Clutch & Pickup Issue"],
+                "features":["Clutch Bearing OES Replacement","Spare Parts Cost Only","Clutch Cable/ Wire, Release Bearing/ Clutch Cylinder, FlyWheel, Hydraulic Bearing in Add Ons","Clutch Oil, Gear Oil Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S11",
+        "Category": "Body Parts",
+        "service_included":[
+            {
+                "sid": "S11-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Front%20Bumper/Front%20Bumper.png",
+                "name":"Front Bumper Replacement",
+                "major_feature":["1 Month Warranty on Fitting","For Broken/Cracked Bumper (Recommended)"],
+                "features":["Opening & Fitting of Front Bumper","Front Bumper Replacement(Black Edition)","Brackets, Grills, Cladding Additions","Paint Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S11-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Rear%20Bumper/Rear%20Bumper%20Replacement%20Sq.png",
+                "name":"Rear Bumper Replacement",
+                "major_feature":["1 Month Warranty on Fitting","For Broken/Cracked Bumper (Recommended)"],
+                "features":["Opening & Fitting of Rear Bumper","Rear Bumper Replacement(Black Edition)","Brackets, Grills, Cladding Additions","Paint Cost Additional"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S12",
+        "Category": "Insurance Claim & Repair",
+        "service_included":[
+            {
+                "sid": "S12-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Know%20Your%20Policy/Know%20Your%20Policy%20Sq.jpg",
+                "name":"Know Your Policy",
+                "major_feature":["Call Within 2 Hours","Regarding Doubts with Claim Intimation"],
+                "features":["Complete Information About Your Policy","Expenditure Assessment","Suggestions on Purchase of New Policy","Connect With Insurance Agent","Vehicle IDV and Premium Rate Suggestions"],
+                "price": 100,
+                "MRP": 111,
+                "time": "Call Within 2 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S12-02",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/retailservices/Accidental%20Denting%20_%20Painting/Thumbnail.jpg",
+                "name":"Accidental Denting & Painting",
+                "major_feature":["Recommended: In Case of Comprehensive Policy"],
+                "features":["Accidental Repair in Insurance","Claim Intimation","Surveyor Estimate Approval","Body Panel Replacement (if Required)","File Charges Included"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "24 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S12-03",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/retailservices/Fire%20Damage%20Assistance/Thumbnail.jpg",
+                "name":"Fire Damage Assistance (Insurance)",
+                "major_feature":["Recommended: In Case of Comprehensive Policy"],
+                "features":["Repairing of Fire Damage in Insurance","Claim Intimation","Surveyor Estimate Approval","File Charges Included"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "24 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S13",
+        "Category": "SOS Services",
+        "service_included":[
+            {
+                "sid": "S13-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Battery-Jump-Start.png",
+                "name":"Battery Jump Start",
+                "major_feature":["Available at Doorstep"],
+                "features":["Car Battery Check"],
+                "price": 100,
+                "MRP": 111,
+                "time": "Takes 2 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Car-Fluid-Leakage.png",
+                "name":"Car Fluid Leakage",
+                "major_feature":["Available at Doorstep","Detailed Health Card"],
+                "features":["Car Fluid Checkup","Repair Fluid Leakage"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Car-Engine-Scanning.png",
+                "name":"Car Engine Scanning",
+                "major_feature":["Available at Doorstep","Scanner Report Provided"],
+                "features":["Electrical Scanning","Error Code Deletion","Sensor Reset","Inspection of Exhaust Smoke"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Wheel-Lift-Towing.png",
+                "name":"Wheel-Lift Tow (20Kms)",
+                "major_feature":["Available at Doorstep"],
+                "features":["Flat Bed Towing","Wheel Lift Towing"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Car-Self-Starter-Issue.png",
+                "name":"Car Self Started Issue",
+                "major_feature":["Available at Doorstep"],
+                "features":["Critical System Points Check","UnderBody Inspection","Car Battery Check"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Flat-Bed-Towing.png",
+                "name":"Flat-Bed Tow (20Kms)",
+                "major_feature":["Available at Doorstep"],
+                "features":["Flat Bed Towing","Wheel Lift Towing"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S13-07",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/sos/Clutch-Breakdown.png",
+                "name":"Clutch BreakDown",
+                "major_feature":["Available at Doorstep","In Case of Gear Stuck"],
+                "features":["Quick Fix of Clutch","Additional Charges for damaged Parts"],
+                "price": 2100,
+                "MRP": 2333,
+                "time": "4 Hours",
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    },
+    {
+        "id": "S14",
+        "Category": "Brake Maintenance",
+        "service_included":[
+            {
+                "sid": "S14-01",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/BrakePads/Front%20Brake%20Pads%20Sq%20(1).jpg",
+                "name":"Front Brake Pads",
+                "major_feature":["1 month Warranty","Every 20,000 km or 12 months (recommended)"],
+                "features":["Opening & Fitting of Front Brake Pads","Front Brake Pads Replacement","Applicable for Set of 2 Front Brake Pads","Inspection of Front Brake Callipers","Front Brake Disc Cleaning"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 3,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-02",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/BrakePads/Brake%20Shoe%20Thumbnail.jpg",
+                "name":"Rear Brake Shoe",
+                "major_feature":[" 1 month Warranty","Every 20,000 km or 12 months (recommended)"],
+                "features":["Opening & Fitting of Rear Brake Pads","Rear Brake Shoe Replacement","Applicable for Set of 2 Rear Brake Pads","Inspection of Rear Brake Callipers","Rear Brake Disc Cleaning"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 6,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-03",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Front%20Disc%20Brake/Thumbnail.jpg",
+                "name":"Front Brake Disc",
+                "major_feature":["1 month Warranty","Corrosion Resistance"],
+                "features":["Front Brake Disc Replacement(Single OES Unit","Opening & Fitting of Front Brake Disc","Reduces Vibrations and Brake Noises","Increase Brake Life & Safety","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-04",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Caliper%20Pin%20Replacement/Thumbnail.jpg",
+                "name":"Calliper Pin Replacement",
+                "major_feature":["Recommended: In Case of noise coming from brakes"],
+                "features":["Calliper Pin Replacement(OES)" ,"Opening & Fitting of Calliper Pin","Calliper Assembly (Cost Additionally)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-05",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Overhaul%20Services/Disc%20Turning/disc%20turning.jpg",
+                "name":"Disc Turning",
+                "major_feature":["1 month Warranty on labour"],
+                "features":["Opening & Fitting of Brake Disc","Inspection of Brake disc","Applicable for Set of 2 Discs (2 Wheels)","Resurfacing of Brake Disc/Rotors"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-06",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Hand%20Brake%20/Thumbnail.jpg",
+                "name":"HandBrake Wire Replacement",
+                "major_feature":["Recommended: In Case of Handbrake stop working"],
+                "features":["Handbrake Wire Replacement(Single OES Unit)","Brake Drum Inspection","Electronic Parking Brake(Additional cost)","Wheel Cylinder,Ratchet,Clamp(cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-07",
+                "img":"https://gomechprod.blob.core.windows.net/gomech-retail/gomechanic_assets/Brake%20Drums/Thumbnail2.jpg",
+                "name":"Brake Drum Turning",
+                "major_feature":["1 month Warranty","Recommended: In Case of Screeching sound coming from brakes"],
+                "features":["Opening & Fitting of Brake Drums","Brake Drum Turning","Refacing of Brake Drums","Applicable for Set of 2 Brake Drums","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            },
+            {
+                "sid": "S14-08",
+                "img":"https://gomechprod.blob.core.windows.net/gm-retail-app/retailservices/wheel%20cylinder%20replacement/thumbnail.jpg",
+                "name":"Wheel Cylinder Replacement",
+                "major_feature":["Recommended: In Case of Poor Braking"],
+                "features":["Wheel Cylinder Replacement","Opening & Fitting of Wheel Cylinder","Brake Shoe & Fluid (Cost Additional)","Free Pickup and Drop"],
+                "price": 12000,
+                "MRP": 16999,
+                "time": 8,
+                "Badge": null,
+                "vehicle_specific": {
+                    "B1-M001": { "price": 12050, "available": true },
+                    "B1-M002": { "price": 12700, "available": true },
+                    "B2-M001": { "price": 14600, "available": true },
+                    "B2-M002": { "price": 13500, "available": true },
+                    "B3-M001": { "price": 12700, "available": true },
+                    "B3-M002": { "price": 11900, "available": true }
+                }
+            }
+        ]
+    }
+
+
+]

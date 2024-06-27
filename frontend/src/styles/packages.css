@@ -1,0 +1,89 @@
+
+
+.basic-pack{
+    position: relative;
+    overflow: hidden;
+    background-image: url('/Images/price-bg.jpg');
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.basic-pack::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-red);
+    transition: var(--transition-base);
+}
+
+.item--badge{
+    position: absolute;
+    background-color: var(--color-white);
+    top: 50px;
+    right: 0;
+    transform: rotate(-90deg) skewX(20deg);
+}
+
+.item--badge .item--title{
+    color: var(--color-red) !important;
+    font-size: var(--fs-20) !important; 
+    margin: 0;
+    padding: 0px 30px;
+    line-height: var(--fs-48);
+    transform:  skewX(-20deg);
+}
+
+
+.premium-pack {
+    position: relative;
+    overflow: hidden;
+    background-image: url('/Images/price-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: var(--transition-base);
+}
+
+.premium-pack::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: var(--color-red);
+    transition: var(--transition-base);
+}
+
+
+.premium-pack:hover::before{
+    width: 100%;
+}
+
+.premium-pack-hovered::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+}
+
+.list--item{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.list--item:not(:first-child){
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width:425px){
+    .item--badge{
+        right: -50px;
+    }
+}

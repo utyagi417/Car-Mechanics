@@ -1,0 +1,133 @@
+/* MARK: Service Section */
+#service-section {
+    background-image: var(--bg-image-1);
+    background-size: auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/* MARK: Heading */
+.cs-heading{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* MARK: Service Col md */
+.service-col-md{
+    margin-bottom: 30px;
+    flex: 1;
+    user-select: none;
+}
+
+/* MARK: inner-item */
+.service-inner-item{
+    position: relative;
+    padding: 50px 25px 30px;
+    background-color: var(--color-dark-black-two);
+    border: 1px solid var(--color-dark-black-three);
+    text-align: center;
+    height: 100%;
+}
+
+.service-item-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    transform: var(--transition-base);
+    position: relative;
+}
+
+
+/* MARK: Title */
+
+.cs-heading .item--title span{
+    color: var(--color-red);
+}
+
+/* MARK: Description */
+
+.service-item-holder .text-wrapper .item--description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 55px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: center;
+}
+
+/* MARK: Image */
+
+.cs-item-image{
+    position: relative;
+}
+.cs-item-image img{
+    width: 100%;
+}
+
+/* MARK: Button Three */
+
+.service-col .inner-item .btn-three {
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    height: 52px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+
+/* MARK: MEDIA QUERY */
+
+@media (min-width: 576px) {
+    .service-col-md{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .service-col-sm{
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+    .service-col-lg {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-col-md{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .service-col-lg {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .cs-heading .cs-item-title {
+        font-size: 3rem;
+        line-height: 1.3em;
+    }
+}
+@media screen and (max-width: 540px) {
+    .cs-heading .cs-item-title {
+        font-size: 2rem;
+        line-height: 1.3em;
+    }
+}
+
+
+
